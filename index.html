@@ -682,6 +682,25 @@ body {
   </div>
 </div>
 
+<div style="background:var(--parchment); padding:32px 44px; border-bottom:1px solid var(--rule);">
+  <div class="section-rule" style="margin-bottom:20px;">
+    <div class="section-rule-line"></div>
+    <div class="section-rule-label">Express Your Interest</div>
+    <div class="section-rule-line"></div>
+  </div>
+  <form action="https://formspree.io/f/myklbgqd" method="POST" style="display:grid; grid-template-columns:1fr 1fr; gap:12px; max-width:500px;">
+    <input type="text" name="name" placeholder="Your name" required style="padding:10px 14px; border:1px solid var(--rule); background:var(--cream); font-family:'Crimson Pro',serif; font-size:0.95rem; color:var(--ink); grid-column:1/-1;">
+    <select name="interest" required style="padding:10px 14px; border:1px solid var(--rule); background:var(--cream); font-family:'Crimson Pro',serif; font-size:0.95rem; color:var(--ink);">
+      <option value="">I am...</option>
+      <option value="in">In</option>
+      <option value="maybe">A maybe</option>
+      <option value="out">Can't make it</option>
+    </select>
+    <textarea name="message" placeholder="Any notes, questions, or conditions of attendance" rows="3" style="padding:10px 14px; border:1px solid var(--rule); background:var(--cream); font-family:'Crimson Pro',serif; font-size:0.95rem; color:var(--ink); grid-column:1/-1; resize:vertical;"></textarea>
+    <button type="submit" style="padding:10px 14px; background:var(--forest); color:var(--cream); border:none; font-family:'Playfair Display',serif; font-size:0.85rem; letter-spacing:0.1em; cursor:pointer;">Reserve My Place</button>
+  </form>
+</div>
+
 <!-- BOOKING -->
 <div class="booking">
   <div>
